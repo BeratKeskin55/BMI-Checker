@@ -5,7 +5,7 @@ window.minsize(width=400,height=300)
 window.title("BMI Checker")
 FONT = ("arial",10,"bold")
 
-metin1 = tkinter.Label(text="lütfen boyunuz girin:",font=FONT)
+metin1 = tkinter.Label(text="lütfen boyunuz girin(m):",font=FONT)
 metin1.place(x=150,y=20)
 
 #enrty1
@@ -19,7 +19,7 @@ my_entry1.place(x=120,y=40)
 
 
 
-metin2 = tkinter.Label(text="lütfen kilonuzu girin:",font=FONT)
+metin2 = tkinter.Label(text="lütfen kilonuzu girin(kg):",font=FONT)
 metin2.place(x=150,y=75)
 
 
